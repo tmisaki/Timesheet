@@ -1,0 +1,97 @@
+@CHARSET "UTF-8";
+
+/*要素毎*/
+
+html, body {
+    overflow-x: hidden;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 5px;
+	display:inline-block;
+}
+
+h3 {
+	margin-top: 0px;
+}
+
+
+
+/*クラス単位*/
+.contents {
+	margin: 0 auto;
+	padding: 10px 5px;
+}
+
+.time_sheet {
+	margin-top: 20px
+}
+
+.time_type {
+	margin-top:10px;
+	margin-bottom: 20px
+}
+
+/*table(クラス単位)*/
+.default_tbl {
+	border-collapse: collapse;
+	border: 1px solid black;
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+.default_tbl th {
+	border: 1px solid black;
+	padding: 5px 10px;
+}
+
+.default_tbl td {
+	border: 1px solid black;
+	padding: 5px 10px;
+}
+
+.tbl-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Textの配置 */
+.right-text {
+	text-align: right;
+}
+
+.left-text {
+	text-align: left;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.Err_Massege {
+	color: red;
+}
+
+
+/*padding*/
+.pd5 {
+	padding: 5px;
+}
+
+/*margin*/
+.mb10 {
+	margin-bottom: 10px
+}
+
+.ml20 {
+	margin-left: 20px;
+}
+
+.mr20 {
+	margin-right: 20px;
+}
